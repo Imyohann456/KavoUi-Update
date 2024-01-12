@@ -70,7 +70,7 @@ local themeStyles = {
         TextColor = Color3.fromRGB(0,0,0),
         ElementColor = Color3.fromRGB(42, 168, 225)
     },
-	SharkTheme = {
+     SharkTheme = {
         SchemeColor = Color3.fromRGB(150, 150, 150),
         Background = Color3.fromRGB(0,0,0),
         Header = Color3.fromRGB(1, 1, 1),
@@ -215,6 +215,8 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.GoofyTheme
     elseif themeList == "CreamTheme" then
         themeList = themeStyles.CreamTheme
+    elseif themeList == "SharkTheme" then
+	themeList = themeStyle.SharkTheme
     elseif themeList == "SpaceTheme" then
         themeList = themeStyles.SpaceTheme
     elseif themeList == "ShoeTheme" then
@@ -222,7 +224,7 @@ function Kavo.CreateLib(kavName, themeList)
     elseif themeList == "RainbowTheme" then
         themeList = themeStyles.RainbowTheme
     elseif themeList == "RoseTheme" then
-	themeList = theneStyle.RoseTheme
+	themeList = themeStyle.RoseTheme
     elseif themeList == "LightTheme" then
         themeList = themeStyles.LightTheme
     elseif themeList == "BloodTheme" then

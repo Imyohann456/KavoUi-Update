@@ -65,14 +65,14 @@ local themeStyles = {
     },
     GoofyTheme = {
         SchemeColor = Color3.fromRGB(178, 102, 255),
-        Background = Color3.fromRGB(160,205,230),
+        Background = Color3.fromRGB(160, 205, 230),
         Header = Color3.fromRGB(255, 127, 80),
-        TextColor = Color3.fromRGB(0,0,0),
+        TextColor = Color3.fromRGB(0, 0, 0),
         ElementColor = Color3.fromRGB(42, 168, 225)
     },
      SharkTheme = {
         SchemeColor = Color3.fromRGB(150, 150, 150),
-        Background = Color3.fromRGB(0,0,0),
+        Background = Color3.fromRGB(0, 0, 0),
         Header = Color3.fromRGB(1, 1, 1),
         TextColor = Color3.fromRGB(1,0,0),
         ElementColor = Color3.fromRGB(1, 0, 0)

@@ -63,12 +63,61 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    TutorialTheme = {
+    GoofyTheme = {
         SchemeColor = Color3.fromRGB(178, 102, 255),
         Background = Color3.fromRGB(160,205,230),
         Header = Color3.fromRGB(255, 127, 80),
         TextColor = Color3.fromRGB(0,0,0),
         ElementColor = Color3.fromRGB(42, 168, 225)
+    },
+	SharkTheme = {
+        SchemeColor = Color3.fromRGB(150, 150, 150),
+        Background = Color3.fromRGB(0,0,0),
+        Header = Color3.fromRGB(1, 1, 1),
+        TextColor = Color3.fromRGB(1,0,0),
+        ElementColor = Color3.fromRGB(1, 0, 0)
+    },
+    CreamTheme = {
+        SchemeColor = Color3.fromRGB(1, 1, 1),
+        Background = Color3.fromRGB(0, 0, 0),
+        Header = Color3.fromRGB(128, 128, 128),
+        TextColor = Color3.fromRGB(0, 0, 0),
+        ElementColor = Color3.fromRGB(255, 255, 255)
+    },
+    SpaceTheme = {
+        SchemeColor = Color3.fromRGB(0, 0, 10),
+        Background = Color3.fromRGB(0, 0, 15),
+        Header = Color3.fromRGB(0, 128, 255),
+        TextColor = Color3.fromRGB(255, 255, 255),
+        ElementColor = Color3.fromRGB(128, 128, 128)
+    },
+    ShoeTheme = {
+        SchemeColor = Color3.fromRGB(245, 222, 179),
+        Background = Color3.fromRGB(255, 255, 255),
+        Header = Color3.fromRGB(0, 0, 0),
+        TextColor = Color3.fromRGB(0, 0, 0),
+        ElementColor = Color3.fromRGB(139, 69, 19)
+    },
+    RainbowTheme = {
+        SchemeColor = Color3.fromRGB(255, 0, 0),
+        Background = Color3.fromRGB(255, 165, 0),
+        Header = Color3.fromRGB(255, 255, 0),
+        TextColor = Color3.fromRGB(0, 255, 0),
+        ElementColor = Color3.fromRGB(0, 0, 255)
+    },
+    RoseTheme = {
+        SchemeColor = Color3.fromRGB(188, 143, 143),
+        Background = Color3.fromRGB(255, 228, 225),
+        Header = Color3.fromRGB(255, 20, 147),
+        TextColor = Color3.fromRGB(128, 0, 0),
+        ElementColor = Color3.fromRGB(255, 182, 193)
+    },
+    LemonTheme = {
+        SchemeColor = Color3.fromRGB(0, 0, 0),
+        Background = Color3.fromRGB(0, 0, 0),
+        Header = Color3.fromRGB(255, 255, 0),
+        TextColor = Color3.fromRGB(1,1,1),
+        ElementColor = Color3.fromRGB(224, 224, 0)
     },
     LightTheme = {
         SchemeColor = Color3.fromRGB(150, 150, 150),
@@ -246,7 +295,7 @@ function Kavo.CreateLib(kavName, themeList)
     Main.Position = UDim2.new(0.336503863, 0, 0.275485456, 0)
     Main.Size = UDim2.new(0, 525, 0, 318)
 
-    MainCorner.CornerRadius = UDim.new(0, 4)
+    MainCorner.CornerRadius = UDim.new(0, 6)
     MainCorner.Name = "MainCorner"
     MainCorner.Parent = Main
 
